@@ -56,7 +56,7 @@ export PEEPHOLE_REPO="4m1Th/peephole"     # your fork (owner/repo)
 set -eu
 
 VERSION="${PEEPHOLE_VERSION:?set PEEPHOLE_VERSION to a pinned tag, e.g. v0.5.1}"
-REPO="${PEEPHOLE_REPO:-akashsebastian333/peephole}"
+REPO="${PEEPHOLE_REPO:-4m1Th/peephole}"
 BIN=/usr/local/bin/peephole
 
 log() { echo "[peephole-install] $*"; }
